@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- puxa a versão html5-->
+<head>
+  <meta charset="UTF-8" /> <!-- inclui carcateres especiais -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- permite que o site seja responsivo, mas é melhor criar um arquivo para isso-->
+  <title>APTO</title> <!-- titulo da página -->
+  <link rel="stylesheet" href="styles.css" /> <!-- link css, para estilizar a página -->
+  <link rel="stylesheet" href="responsivo.css"> <!-- link, do arquivo responsivo -->
+</head>
+<body>
+  <div class="container"> <!-- cria um bloco a parte na página, sendo possível fazer alterações separadamente -->
+    <h1>Auto Presença Tecnologica Orientada</h1> <!-- título -->
+    <p>Selecione seu perfil para continuar:</p>
+    <div class="botoes"> <!-- classe para os botões, podendo estilizar separadamente-->
+      <button class="botao" onclick="window.location.href='login_professor.html'">Professor</button> <!-- botão onclick, serve para inserir um link dentro dele-->
+      <button class="botao" onclick="window.location.href='login_aluno.html'">Aluno</button>
+      <button class="botao" onclick="window.location.href='login_admin.html'">Administrador</button>
+    </div>
+  </div>
+</body>
+</html>

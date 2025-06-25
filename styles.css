@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* { /* aplica as regras em todos os elementos*/
+  margin: 0; /* sem margem*/
+  padding: 0; /* sem espaçamento */
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #001f3f, #0074D9); /* cor de fundo (degrade) */
+  height: 100vh;
+  display: flex; /* centraliza o conteúdo no meio da tela*/
+  justify-content: center;
+  align-items: center;
+  color: white; /* cor do texto*/
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 30px; /* espaçamento interno */
+  border-radius: 12px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column; /* formação de coluna */
+  gap: 10px; /* espaço entre os botões*/
+  margin-top: 20px; /* espaçamento do conteúdo acima */
+}
+
+.botao {
+  background-color: #ffffff;
+  color: #0074D9;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem; /* tamanho */
+  cursor: pointer; /* cursor em formato de mão ao passar em cima */
+  transition: transform 0.2s, background-color 0.3s; /* transformação de cor, ao passar o cursor em cima */
+}
+
+.botao:hover { /* mexer botão */
+  background-color: #0074D9; /* fundo azul */
+  color: white; /* texto branco */
+  transform: scale(1.05); /* aumenta de tamanho */
+}
